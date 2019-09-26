@@ -5,5 +5,7 @@ Survey with very complicated scoring
 Each question has the same 8 answer options
 Each question has a different threshold at which the user's response becomes "clinically significant."
 Any clinically significant response to any question in a category triggers a "true" for the category
-Final score is the number of categories with a "true" value
+Final score is the number of categories with a "true" value.
+
+Testing branches
 

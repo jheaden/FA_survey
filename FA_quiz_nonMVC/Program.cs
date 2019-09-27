@@ -222,10 +222,8 @@ namespace FA_quiz_nonMVC
                 Console.WriteLine("Mild Food Addiction = 2 or 3 symptoms and clinical significance.");
             } else if ((finalScore >= 4) && (finalScore < 5))   {
                 Console.WriteLine("Moderate Food Addiction = 4 or 5 symptoms and clinical significance");
-            } else if ((finalScore > 5) && (finalScore < 13))     {
+            } else if (finalScore > 5)    {
                 Console.WriteLine("Severe Food Addiction = 6 or more symptoms and clinical significance");
-            } else {
-                Console.WriteLine("Something is wrong.");
             }
 
             Console.ReadLine();

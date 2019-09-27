@@ -218,11 +218,17 @@ namespace FA_quiz_nonMVC
             if (finalScore <= 1)
             {
                 Console.WriteLine("No Food Addiction = 1 or fewer symptoms. Does not meet criteria for clinical significance.");
-            } else if ((finalScore >= 2) && (finalScore < 4))   {
+            }
+            else if ((finalScore >= 2) && (finalScore < 4))
+            {
                 Console.WriteLine("Mild Food Addiction = 2 or 3 symptoms and clinical significance.");
-            } else if ((finalScore >= 4) && (finalScore < 5))   {
+            }
+            else if ((finalScore >= 4) && (finalScore <= 5))
+            {
                 Console.WriteLine("Moderate Food Addiction = 4 or 5 symptoms and clinical significance");
-            } else if (finalScore > 5)    {
+            }
+            else if (finalScore > 5)
+            {
                 Console.WriteLine("Severe Food Addiction = 6 or more symptoms and clinical significance");
             }
 

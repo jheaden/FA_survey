@@ -7,5 +7,4 @@ Each question has a different threshold at which the user's response becomes "cl
 Any clinically significant response to any question in a category triggers a "true" for the category
 Final score is the number of categories with a "true" value.
 
-Testing branches
 
